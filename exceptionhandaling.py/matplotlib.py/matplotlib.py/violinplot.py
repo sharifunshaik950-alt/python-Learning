@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+import numpy as np
+a=[1,2,3,4]
+b=[2,3,4,5]
+c=[3,4,5,6]
+d=[4,5,6,7]
+data=[a,b,c,d]
+plt.violinplot(data,showmedians=True)
+plt.show()
